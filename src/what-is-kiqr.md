@@ -8,6 +8,8 @@ Just want to try it out? Skip to the [Quickstart](./getting-started).
 
 </div>
 
+<img src="/screenshots/edit-profile.png" alt="KIQR saas starter kit screenshot">
+
 ## Key features
 
 KIQR features includes but are not limited to:

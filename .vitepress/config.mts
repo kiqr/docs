@@ -6,6 +6,7 @@ export default defineConfig({
   description: "Rails SaaS starter kit",
   base: "/",
   srcDir: "src",
+  lastUpdated: true,
   cleanUrls: false,
   ignoreDeadLinks: [
     // ignore exact url "/playground"
@@ -28,6 +29,7 @@ export default defineConfig({
         text: "Introduction",
         items: [
           { text: "What is KIQR?", link: "/what-is-kiqr" },
+          { text: "Screenshots", link: "/screenshots" },
           { text: "Getting started", link: "/getting-started" },
         ],
       },
