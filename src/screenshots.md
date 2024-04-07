@@ -17,3 +17,9 @@ With the incorporation of two-factor authentication, the KIQR SaaS Starter Kit s
 KIQR offers templates for a settings page, where users can personalize their experience. From editing profiles to adjusting preferences, this page consolidates all necessary account settings into one easily accessible location, tailoring the user experience to individual needs.
 
 <img src="/screenshots/edit-profile.png" alt="KIQR saas settings page">
+
+## Dark mode
+
+KIQR embraces user preference with the inclusion of a dark mode feature. This option allows users to switch to a darker color scheme, reducing eye strain and optimizing the interface for low-light environments. It's an effortless way to customize the visual aspect of the platform, ensuring comfort during prolonged usage.
+
+<img src="/screenshots/dark-mode.png" alt="KIQR saas dark mode">
