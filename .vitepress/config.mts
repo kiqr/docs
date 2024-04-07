@@ -7,6 +7,18 @@ export default defineConfig({
   base: "/",
   srcDir: "src",
   cleanUrls: false,
+  ignoreDeadLinks: [
+    // ignore exact url "/playground"
+    "/playground",
+    // ignore all localhost links
+    /^https?:\/\/localhost/,
+    // ignore all links include "/repl/""
+    /\/repl\//,
+    // custom function, ignore all links include "ignore"
+    (url) => {
+      return url.toLowerCase().includes("ignore");
+    },
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     siteTitle: "KIQR",
