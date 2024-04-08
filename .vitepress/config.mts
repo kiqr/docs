@@ -39,6 +39,7 @@ export default defineConfig({
         items: [
           { text: "Authentication", link: "/features/authentication" },
           { text: "Accounts", link: "/features/accounts" },
+          { text: "Team invitations", link: "/features/invitations" },
         ],
       },
     ],

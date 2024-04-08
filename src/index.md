@@ -21,9 +21,10 @@ features:
   - title: User authentication
     details: Secure user authentication with email and password using Devise.
     link: /features/authentication
-  - title: Teams / Organizations
+  - title: Multi-user accounts
     details: Allow users to create and manage teams or organizations.
     link: /features/accounts
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Team invitations
+    details: Invite users to join your team or organization with a unique link sent by email.
+    link: /features/invitations
 ---
