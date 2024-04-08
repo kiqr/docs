@@ -20,6 +20,7 @@ export default defineConfig({
       return url.toLowerCase().includes("ignore");
     },
   ],
+  head: [],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     siteTitle: "KIQR",

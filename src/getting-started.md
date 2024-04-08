@@ -2,22 +2,29 @@
 
 To get started with **KIQR**, follow the simple steps below. It should take you less than 1 minute to get up and running. This will clone our repository, run the setup script, and start the development environment.
 
-#### 1. Clone the repository
+#### 1. Star the repository on GitHub
+
+Give [kiqr/kiqr](https://github.com/kiqr/kiqr) a star on GitHub to fuel my coding marathons! Every star is a burst of motivation, helping me push further into the night and keep improving this project for all of us. Your support lights up the development path ahead!🌟
+
+#### 2. Clone the repository
+
+Clone the starter kit repository to your local machine by running the following command:
 
 ```console
 git clone git@github.com:kiqr/kiqr.git my-app
 ```
 
-#### 2. Run the setup script
+#### 3. Run the setup script
 
 Navigate into the new directory `my-app` and execute the setup script. This will install all the dependencies, create the databases, and run the migrations.
 
 ```console
-cd my-app
 bin/setup
 ```
 
-#### 3. Start the development environment
+#### 4. Start the development environment
+
+Start the development environment by running the following command:
 
 ```console
 bin/dev

@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "KIQR"
-  text: "Kickstart your SaaS project"
-  tagline: Authentication, teams, billing, 2fa and more
+  text: "Documentation"
+  tagline: Two factor authentication, teams, billing, TailwindCSS theme and more for <a href="https://rubyonrails.org/" target="_blank" style="font-weight:bold">Ruby on Rails</a>.
   actions:
     - theme: brand
       text: What is KIQR?
@@ -23,7 +23,7 @@ features:
     link: /features/authentication
   - title: Teams / Organizations
     details: Allow users to create and manage teams or organizations.
-    link: /features/authentication
+    link: /features/accounts
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
