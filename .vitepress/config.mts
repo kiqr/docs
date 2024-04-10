@@ -24,25 +24,55 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     siteTitle: "KIQR",
-    nav: [{ text: "Documentation", link: "/what-is-kiqr" }],
-    sidebar: [
-      {
-        text: "Introduction",
-        items: [
-          { text: "What is KIQR?", link: "/what-is-kiqr" },
-          { text: "Screenshots", link: "/screenshots" },
-          { text: "Getting started", link: "/getting-started" },
-        ],
-      },
-      {
-        text: "Features",
-        items: [
-          { text: "Authentication", link: "/features/authentication" },
-          { text: "Accounts", link: "/features/accounts" },
-          { text: "Team invitations", link: "/features/invitations" },
-        ],
-      },
+    nav: [
+      { text: "Guide", link: "/guide/what-is-kiqr.html" },
+      { text: "Reference", link: "/reference/app-config.html" },
     ],
+    sidebar: {
+      "/guide/": [
+        {
+          text: "Introduction",
+          items: [
+            { text: "What is KIQR?", link: "/guide/what-is-kiqr" },
+            { text: "Screenshots", link: "/guide/screenshots" },
+            { text: "Getting started", link: "/guide/getting-started" },
+          ],
+        },
+        {
+          text: "Features",
+          items: [
+            { text: "Authentication", link: "/guide/features/authentication" },
+            { text: "Accounts", link: "/guide/features/accounts" },
+            { text: "Team invitations", link: "/guide/features/invitations" },
+          ],
+        },
+      ],
+      "/reference/": [
+        {
+          items: [
+            { text: "Application config", link: "/reference/app-config" },
+          ],
+        },
+        {
+          text: "Services",
+          items: [
+            {
+              text: "Accounts",
+              items: [
+                {
+                  text: "Create",
+                  link: "/reference/services/accounts/create",
+                },
+                {
+                  text: "Update",
+                  link: "/reference/services/accounts/update",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
 
     socialLinks: [{ icon: "github", link: "https://github.com/kiqr/kiqr" }],
     search: {
