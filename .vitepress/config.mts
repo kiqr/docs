@@ -46,16 +46,16 @@ export default defineConfig({
             { text: "Team invitations", link: "/guide/features/invitations" },
           ],
         },
+        {
+          text: "Config & API Reference",
+          link: "/reference/app-config",
+        },
       ],
       "/reference/": [
         {
+          text: "Reference",
           items: [
             { text: "Application config", link: "/reference/app-config" },
-          ],
-        },
-        {
-          text: "Services",
-          items: [
             {
               text: "Accounts",
               items: [
