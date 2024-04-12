@@ -1,6 +1,6 @@
-# Kiqr::Services::Account::Update
+# Kiqr::Services::Accounts::Update
 
-The `Kiqr::Services::Account::Update` service class facilitates the update process for accounts within the Kiqr platform. It ensures that only authorized users can update account details, supporting both personal and team accounts.
+The `Kiqr::Services::Accounts::Update` service class facilitates the update process for accounts within the Kiqr platform. It ensures that only authorized users can update account details, supporting both personal and team accounts.
 
 ## Usage
 

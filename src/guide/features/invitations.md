@@ -10,7 +10,7 @@ Invitations are not tied to specific email addresses, allowing anyone with the i
 
 ## Sending invitations
 
-Invitations are sent via email, containing a unique link for the recipient to accept or reject the invitation. The invitation link is generated using the `user_invitation_url` helper, which requires the invitation public_id as a parameter. This id is automatically generated upon invitation creation and stored in the `public_uid` column of the `AccountInvitation` model.
+Invitations are sent via email, containing a unique link for the recipient to accept or reject the invitation. The invitation link is generated using the `invitation_url` helper, which requires the invitation public_id as a parameter. This id is automatically generated upon invitation creation and stored in the `public_uid` column of the `AccountInvitation` model.
 
 ## Accepting an invitation
 

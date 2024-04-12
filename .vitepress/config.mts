@@ -69,6 +69,27 @@ export default defineConfig({
                 },
               ],
             },
+            {
+              text: "Invitations",
+              items: [
+                {
+                  text: "Accept",
+                  link: "/reference/services/invitations/accept",
+                },
+                {
+                  text: "Create",
+                  link: "/reference/services/invitations/create",
+                },
+                {
+                  text: "Destroy",
+                  link: "/reference/services/invitations/destroy",
+                },
+                {
+                  text: "Reject",
+                  link: "/reference/services/invitations/reject",
+                },
+              ],
+            },
           ],
         },
       ],

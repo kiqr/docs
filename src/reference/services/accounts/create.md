@@ -1,6 +1,6 @@
-# Kiqr::Services::Account::Create
+# Kiqr::Services::Accounts::Create
 
-The `Kiqr::Services::Account::Create` service class is designed to streamline the creation of accounts within the Kiqr platform. It supports the instantiation of both personal and team accounts, depending on the needs of the user.
+The `Kiqr::Services::Accounts::Create` service class is designed to streamline the creation of accounts within the Kiqr platform. It supports the instantiation of both personal and team accounts, depending on the needs of the user.
 
 ## Usage
 
