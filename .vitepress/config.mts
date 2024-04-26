@@ -26,7 +26,7 @@ export default defineConfig({
     siteTitle: "KIQR",
     nav: [
       { text: "Guide", link: "/guide/what-is-kiqr.html" },
-      { text: "Reference", link: "/reference/app-config.html" },
+      { text: "Reference", link: "/reference/" },
     ],
     sidebar: {
       "/guide/": [
@@ -36,6 +36,7 @@ export default defineConfig({
             { text: "What is KIQR?", link: "/guide/what-is-kiqr" },
             { text: "Screenshots", link: "/guide/screenshots" },
             { text: "Getting started", link: "/guide/getting-started" },
+            { text: "Configuration", link: "/guide/configuration" },
           ],
         },
         {
@@ -46,16 +47,11 @@ export default defineConfig({
             { text: "Team invitations", link: "/guide/features/invitations" },
           ],
         },
-        {
-          text: "Config & API Reference",
-          link: "/reference/app-config",
-        },
       ],
       "/reference/": [
         {
           text: "Reference",
           items: [
-            { text: "Application config", link: "/reference/app-config" },
             {
               text: "Accounts",
               items: [

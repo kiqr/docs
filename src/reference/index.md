@@ -1,1 +1,1 @@
-<meta http-equiv="refresh" content="0; url=/reference/app-config.html">
+<meta http-equiv="refresh" content="0; url=/reference/services/accounts/create.html">

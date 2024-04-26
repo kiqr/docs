@@ -1,4 +1,4 @@
-# Application config
+# Configuration
 
 Kiqr allows you to personalize your application through various configuration options. Set up your application's name, email settings, and locale preferences by adjusting the Kiqr configuration.
 
