@@ -11,7 +11,7 @@ Give [kiqr/kiqr](https://github.com/kiqr/kiqr) a star on GitHub to fuel my codin
 Clone the starter kit repository to your local machine by running the following command:
 
 ```console
-git clone git@github.com:kiqr/kiqr.git my-app
+git clone git@github.com:kiqr/starter-kit.git my-app
 ```
 
 #### 3. Run the setup script
